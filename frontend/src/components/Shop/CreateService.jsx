@@ -64,7 +64,7 @@ const CreateService = () => {
     newForm.append("operationYears", operationYears);
     newForm.append("shopId", seller._id);
     dispatch(
-      createProduct({
+      createService({
         name,
         description,
         category,
