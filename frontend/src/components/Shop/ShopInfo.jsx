@@ -10,6 +10,7 @@ import { getAllProductsShop } from "../../redux/actions/product";
 const ShopInfo = ({ isOwner }) => {
   const [data,setData] = useState({});
   const {products} = useSelector((state) => state.products);
+  const {services} = useSelector((state) => state.services);
   const [isLoading,setIsLoading] = useState(false);
   const {id} = useParams();
   const dispatch = useDispatch();
@@ -73,6 +74,10 @@ const ShopInfo = ({ isOwner }) => {
       <div className="p-3">
         <h5 className="font-[600]">Total Products</h5>
         <h4 className="text-[#000000a6]">{products && products.length}</h4>
+      </div>
+      <div className="p-3">
+        <h5 className="font-[600]">Total Services</h5>
+        <h4 className="text-[#000000a6]">{services && services.length}</h4>
       </div>
       <div className="p-3">
         <h5 className="font-[600]">Shop Ratings</h5>

@@ -7,6 +7,7 @@ import {
   ActivationPage,
   HomePage,
   ProductsPage,
+  ServicesPage,
   BestSellingPage,
   EventsPage,
   FAQPage,
@@ -14,6 +15,7 @@ import {
   PaymentPage,
   OrderSuccessPage,
   ProductDetailsPage,
+  ServiceDetailsPage,
   ProfilePage,
   ShopCreatePage,
   SellerActivationPage,
@@ -25,7 +27,9 @@ import {
 import {
   ShopDashboardPage,
   ShopCreateProduct,
+  ShopCreateService,
   ShopAllProducts,
+  ShopAllServices,
   ShopCreateEvents,
   ShopAllEvents,
   ShopAllCoupouns,
@@ -43,6 +47,7 @@ import {
   AdminDashboardSellers,
   AdminDashboardOrders,
   AdminDashboardProducts,
+  AdminDashboardServices,
   AdminDashboardEvents,
   AdminDashboardWithdraw
 } from "./routes/AdminRoutes";
@@ -55,6 +60,7 @@ import ProtectedAdminRoute from "./routes/ProtectedAdminRoute";
 import { ShopHomePage } from "./ShopRoutes.js";
 import SellerProtectedRoute from "./routes/SellerProtectedRoute";
 import { getAllProducts } from "./redux/actions/product";
+import { getAllServices } from "./redux/actions/service";
 import { getAllEvents } from "./redux/actions/event";
 import axios from "axios";
 import { server } from "./server";
@@ -72,6 +78,7 @@ const App = () => {
     Store.dispatch(loadUser());
     Store.dispatch(loadSeller());
     Store.dispatch(getAllProducts());
+    Store.dispatch(getAllServices());
     Store.dispatch(getAllEvents());
     getStripeApikey();
   }, []);
@@ -106,6 +113,8 @@ const App = () => {
         />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:id" element={<ProductDetailsPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/service/:id" element={<ServiceDetailsPage />} />
         <Route path="/best-selling" element={<BestSellingPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/faq" element={<FAQPage />} />
@@ -186,6 +195,16 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
+
+        <Route
+          path="/dashboard-create-service"
+          element={
+            <SellerProtectedRoute>
+              <ShopCreateService />
+            </SellerProtectedRoute>
+          }
+        />
+
         <Route
           path="/dashboard-orders"
           element={
@@ -219,6 +238,16 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
+
+        <Route
+          path="/dashboard-services"
+          element={
+            <SellerProtectedRoute>
+              <ShopAllServices />
+            </SellerProtectedRoute>
+          }
+        />
+
         <Route
           path="/dashboard-create-event"
           element={
@@ -300,6 +329,16 @@ const App = () => {
             </ProtectedAdminRoute>
           }
         />
+
+        <Route
+          path="/admin-services"
+          element={
+            <ProtectedAdminRoute>
+              <AdminDashboardServices />
+            </ProtectedAdminRoute>
+          }
+        />
+
          <Route
           path="/admin-events"
           element={

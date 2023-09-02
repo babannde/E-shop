@@ -3,6 +3,7 @@ import AdminDashboardUsers from "../pages/AdminDashboardUsers";
 import AdminDashboardSellers from "../pages/AdminDashboardSellers";
 import AdminDashboardOrders from "../pages/AdminDashboardOrders";
 import AdminDashboardProducts from "../pages/AdminDashboardProducts";
+import AdminDashboardServices from "../pages/AdminDashboardServices";
 import AdminDashboardEvents from "../pages/AdminDashboardEvents";
 import AdminDashboardWithdraw from "../pages/AdminDashboardWithdraw";
 
@@ -12,6 +13,7 @@ export {
   AdminDashboardSellers,
   AdminDashboardOrders,
   AdminDashboardProducts,
+  AdminDashboardServices,
   AdminDashboardEvents,
   AdminDashboardWithdraw
 };
