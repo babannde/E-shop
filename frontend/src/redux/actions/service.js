@@ -50,7 +50,7 @@ export const getAllServicesShop = (id) => async (dispatch) => {
     });
 
     const { data } = await axios.get(
-      `${server}/service/get-all-services-shop/${id}`
+      `${server}/service/get-all-shop-services/${id}`
     );
     dispatch({
       type: "getAllServicesShopSuccess",
