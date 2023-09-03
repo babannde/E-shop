@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const ErrorHandler = require("../utils/ErrorHandler");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
+const sendMail = require("../utils/sendMail");
 const { isAuthenticated, isSeller, isAdmin } = require("../middleware/auth");
 const Order = require("../model/order");
 const Shop = require("../model/shop");
@@ -37,6 +38,35 @@ router.post(
           paymentInfo,
         });
         orders.push(order);
+      }
+
+      //   Send mail to user with all the order
+
+      try {
+        await sendMail({
+          email: user.email,
+          subject: "Your Order!!!",
+          message: `Hello ${user.name}, Thank you for your order!`,
+        });
+        res.status(201).json({
+          success: true,
+        });
+      } catch (error) {
+        return next(new ErrorHandler(error.message, 500));
+      }
+
+        //   Send mail to seller
+      try {
+        await sendMail({
+          email: req.seller.email,
+          subject: "You have an Order!!!",
+          message: `Hello ${req.seller.name}, Please login to your shop to process placed orders!`,
+        });
+        res.status(201).json({
+          success: true,
+        });
+      } catch (error) {
+        return next(new ErrorHandler(error.message, 500));
       }
 
       res.status(201).json({
