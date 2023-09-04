@@ -67,7 +67,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="../../../public/logo.png"
+                src="%PUBLIC_URL%/logo.png"
                 alt=""
               />
             </Link>
@@ -226,7 +226,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="../../../public/logo.svg"
+                src="%PUBLIC_URL%/logo.png"
                 alt=""
                 className="mt-3 cursor-pointer"
               />
