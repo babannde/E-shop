@@ -67,7 +67,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="../../../public/logo.svg"
+                src="%PUBLIC_URL%/logo.svg"
                 alt=""
               />
             </Link>
