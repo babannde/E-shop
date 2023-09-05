@@ -24,6 +24,10 @@ export const navItems = [
     title: "FAQ",
     url: "/faq",
   },
+  {
+    title: "Support",
+    url: "/support",
+  },
 ];
 
 // branding data
@@ -195,103 +199,27 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Rice",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/oats-peeled_1368-5470.jpg?w=740&t=st=1692192188~exp=1692192788~hmac=cb2d4850e6db491359428ccd885799b65bb0629435d18d8cd9c6bf436847261c",
-  },
-  {
-    id: 2,
-    title: "Wheat",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/nutrition-straw-plant-crop-agricultural_1172-258.jpg?w=740&t=st=1692187275~exp=1692187875~hmac=3a1873e879f17afee087b03ad2613c4c3dac81d0e93c40c9c12b08f10a21bf64",
-  },
-  {
-    id: 3,
-    title: "Beans",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/seeds_1368-6562.jpg?w=740&t=st=1692185784~exp=1692186384~hmac=80411dcc1411bc0b8a61cce181e912ec5b0672fbb799042aef9fcc96806c5e93",
-  },
-  {
-    id: 4,
-    title: "Oats",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/oats_1368-5509.jpg?w=740&t=st=1692187394~exp=1692187994~hmac=45d360583b571feee650c8e7f03561042b6fd4eb2cbab28e742ad94697d4f2b9",
-  },
-  {
-    id: 5,
-    title: "Nuts",
+    title: "Agro Products",
     subTitle: "",
     image_Url:
       "https://img.freepik.com/free-photo/mixed-nuts_1308-39988.jpg?w=740&t=st=1692188600~exp=1692189200~hmac=798830b769f4b500385e7c45f269ed7d66c0bd87191f76e8fa532d1e124f9009",
   },
   {
-    id: 6,
-    title: "Millet",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/quinoa-real_1368-9187.jpg?w=740&t=st=1692188726~exp=1692189326~hmac=f3e20488e8707cd3e8d8e9c218158fc1908447d6fae1d02fb5af0952302af328",
-  },
-  {
-    id: 7,
-    title: "Maize",
-    subTitle: "",
-    image_Url: "https://img.freepik.com/free-photo/two-ears-corn-white-background_1127-240.jpg?w=740&t=st=1692188806~exp=1692189406~hmac=79c83b6d496bf876756ddd886e7334ee297d23ef24b70676ab496618fc297fe5",
-  },
-  {
-    id: 8,
-    title: "Rubber",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/rubber-tree-bowl-filled-with-latex_1150-10343.jpg?w=740&t=st=1692190280~exp=1692190880~hmac=daefe596fff2c49002a4727509b0d65e4508d33ae5267fdd9aed6774f1563d9c",
-  },
-  {
-    id: 9,
-    title: "Coffee",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/coffee-seeds_1136-46.jpg?w=740&t=st=1692194657~exp=1692195257~hmac=45ef9f85682dc8d646c00a134c96c011ecf6b1afbc7acbac3d5f19db210f6d33",
-  },
-  {
-    id: 10,
-    title: "Cotton",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/cotton-flowers_144627-37398.jpg?w=740&t=st=1692188929~exp=1692189529~hmac=7f233a5ccc5443a6af9bb2286ee2e104ebfa513568fa367906aeba48947105c5",
-  },
-   {
-    id: 11,
-    title: "Coccoa",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-vector/cocoa-tree-branch-realistic-composition-with-image-cacao-fruits-limb-with-leaves-beans_1284-32284.jpg?w=740&t=st=1692191879~exp=1692192479~hmac=bd568040875d5573bdb4b5141f4a6668018bd804673d506b275350503a0837ac",
-  },
-  {
-    id: 12,
-    title: "Timber",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/cracked-wooden-brick_144627-10177.jpg?w=740&t=st=1692188995~exp=1692189595~hmac=18534ade4a64d7e355754c9960aaee3aee65b4a84e54b34911257ff4408c36f3",
-  },
-  {
-    id: 13,
+    id: 2,
     title: "Animal Products",
     subTitle: "",
     image_Url:
       "https://img.freepik.com/free-vector/white-sheep-farm-animal-cartoon-sticker_1308-78715.jpg?w=360&t=st=1692189343~exp=1692189943~hmac=10c40b89ceb1b053fe2ca567f3c6db162d0472670c780a25b215c00d0f4772e5",
   },
   {
-    id: 14,
+    id: 3,
     title: "Minerals",
     subTitle: "",
     image_Url:
       "https://img.freepik.com/free-photo/closeup-colourful-mineral-stone-lights-isolated-white-background_181624-48306.jpg?w=740&t=st=1692189430~exp=1692190030~hmac=d7c525f407f2124ce0c9e605f08f9bd697155266db06a2e9efaa1d6580ade930",
   },
   {
-    id: 15,
+    id: 4,
     title: "Others",
     subTitle: "",
     image_Url:

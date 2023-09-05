@@ -7,6 +7,7 @@ import ServicesPage from "../pages/ServicesPage";
 import BestSellingPage from "../pages/BestSellingPage";
 import EventsPage from "../pages/EventsPage";
 import FAQPage from "../pages/FAQPage";
+import SupportPage from "../pages/SupportPage";
 import CheckoutPage from "../pages/CheckoutPage";
 import PaymentPage from "../pages/PaymentPage";
 import OrderSuccessPage from "../pages/OrderSuccessPage";
@@ -30,6 +31,7 @@ export {
     BestSellingPage,
     EventsPage,
     FAQPage,
+    SupportPage,
     CheckoutPage,
     PaymentPage,
     OrderSuccessPage,

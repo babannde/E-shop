@@ -44,19 +44,27 @@ const Footer = () => {
           <br />
           <p>Trade, add value and scale production.</p>
           <div className="flex items-center mt-[15px]">
-            <AiFillFacebook size={25} className="cursor-pointer" />
+          <Link to="https://www.linkedin.com/in/kiyira">
+            <AiFillLinkedin size={25} className="cursor-pointer" />
+          </Link>
+          <Link to="https://www.twitter.com/kiyiraa">
             <AiOutlineTwitter
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
             />
+          </Link>
+          <Link to="https://www.instagram.com/kiyiraa">
             <AiFillInstagram
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
             />
+          </Link> 
+          <Link to="https://www.youtube.com/kiyiraa">
             <AiFillYoutube
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
             />
+          </Link>
           </div>
         </ul>
 
