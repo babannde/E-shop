@@ -18,7 +18,7 @@
           ]
         },
         {
-          "source": "/https://e-shop-six-mu.vercel.app/(.*)",
+          "source": "/e-shop-six-mu.vercel.app/(.*)",
           "headers": [
             { "key": "Access-Control-Allow-Origin", "value": "*" }
           ]
