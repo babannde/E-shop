@@ -218,6 +218,13 @@ export const categoriesData = [
     image_Url:
       "https://img.freepik.com/free-photo/dried-strawberry_1368-6559.jpg?w=740&t=st=1693988814~exp=1693989414~hmac=b590fdb76e72b90a8acab8c2baf9f703575d69dcb302bcdad6a49f44e1be6e5f",
   },
+  {
+    id: 4,
+    title: "Others",
+    subTitle: "",
+    image_Url:
+      "https://img.freepik.com/free-photo/beautiful-log_1339-660.jpg?w=740&t=st=1693993353~exp=1693993953~hmac=551d5ec7d4a090a2b43273ef3e919fc283e3547f984f3acd29e088ac8d5de763",
+  },
 ];
 
 // product Data
