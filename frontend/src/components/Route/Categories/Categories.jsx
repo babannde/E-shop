@@ -28,7 +28,7 @@ const Categories = () => {
         className={`${styles.section} bg-white p-6 rounded-lg mb-12`}
         id="categories"
       >
-        <div className="grid grid-cols-1 gap-[5px] md:grid-cols-2 md:gap-[5px] lg:grid-cols-3 lg:gap-[5px] xl:grid-cols-3 xl:gap-[5px]">
+        <div className="grid grid-cols-1 gap-[5px] md:grid-cols-2 md:gap-[30px] lg:grid-cols-3 lg:gap-[30px] xl:grid-cols-3 xl:gap-[30px]">
           {categoriesData &&
             categoriesData.map((i) => {
               const handleSubmit = (i) => {
