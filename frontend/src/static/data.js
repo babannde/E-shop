@@ -216,14 +216,7 @@ export const categoriesData = [
     title: "Minerals",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-photo/closeup-colourful-mineral-stone-lights-isolated-white-background_181624-48306.jpg?w=740&t=st=1692189430~exp=1692190030~hmac=d7c525f407f2124ce0c9e605f08f9bd697155266db06a2e9efaa1d6580ade930",
-  },
-  {
-    id: 4,
-    title: "Others",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-vector/pile-soil-dirt-heap-graphic-design-element_107791-13980.jpg?w=826&t=st=1692189993~exp=1692190593~hmac=8da09e309938cdbfc4371fc7db3de16a3ee423deb48123d989ecfdb13b9f1756",
+      "https://img.freepik.com/free-photo/dried-strawberry_1368-6559.jpg?w=740&t=st=1693988814~exp=1693989414~hmac=b590fdb76e72b90a8acab8c2baf9f703575d69dcb302bcdad6a49f44e1be6e5f",
   },
 ];
 
