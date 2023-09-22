@@ -87,7 +87,7 @@ router.post(
       let seller = await Shop.findOne({ email });
 
       if (seller) {
-        return next(new ErrorHandler("User already exists", 400));
+        return next(new ErrorHandler("Seller already exists", 400));
       }
 
       seller = await Shop.create({
@@ -121,7 +121,7 @@ router.post(
       const user = await Shop.findOne({ email }).select("+password");
 
       if (!user) {
-        return next(new ErrorHandler("User doesn't exists!", 400));
+        return next(new ErrorHandler("Seller doesn't exists!", 400));
       }
 
       const isPasswordValid = await user.comparePassword(password);
@@ -148,7 +148,7 @@ router.get(
       const seller = await Shop.findById(req.seller._id);
 
       if (!seller) {
-        return next(new ErrorHandler("User doesn't exists", 400));
+        return next(new ErrorHandler("Seller doesn't exists", 400));
       }
 
       res.status(200).json({
@@ -244,7 +244,7 @@ router.put(
       const shop = await Shop.findOne(req.seller._id);
 
       if (!shop) {
-        return next(new ErrorHandler("User not found", 400));
+        return next(new ErrorHandler("Seller not found", 400));
       }
 
       shop.name = name;
