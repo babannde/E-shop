@@ -202,14 +202,14 @@ export const categoriesData = [
     title: "Cereals",
     subTitle: "",
     image_Url:
-      "https://www.freepik.com/free-photo/oats-peeled_1197007.htm#query=rice%20png&position=37&from_view=search&track=ais",
+      "https://img.freepik.com/free-photo/oats-peeled_1368-5469.jpg?w=740&t=st=1699634900~exp=1699635500~hmac=657a0e610f7bc4e1f9043cc7d317fb893b9a1b1e5def15f449b19ae829093a87",
   },
   {
     id: 2,
     title: "Beans",
     subTitle: "",
     image_Url:
-      "https://www.freepik.com/free-photo/mountain-almonds_953911.htm#query=beans%20png&position=0&from_view=search&track=ais",
+      "https://img.freepik.com/free-photo/mountain-almonds_1203-910.jpg?w=740&t=st=1699634491~exp=1699635091~hmac=73983a2609a29ee3c28ce2f1a7f2aea1d91ae6360f648e61e2511f2bdbe50521",
   },
   {
     id: 3,
