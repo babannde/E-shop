@@ -1,29 +1,29 @@
 // navigation Data
 export const navItems = [
-  {
-    title: "Home",
-    url: "/",
-  },
+  // {
+  //   title: "",
+  //   url: "/",
+  // },
   {
     title: "Best Selling",
     url: "/best-selling",
   },
   {
-    title: "Products",
+    title: "Resources",
     url: "/products",
   },
   {
-    title: "Services",
+    title: "Alliances",
     url: "/services",
   },
-  {
-    title: "Trends",
-    url: "/events",
-  },
-  {
-    title: "FAQ",
-    url: "/faq",
-  },
+  // {
+  //   title: "",
+  //   url: "/events",
+  // },
+  // {
+  //   title: "",
+  //   url: "/faq",
+  // },
   {
     title: "Support",
     url: "/support",
@@ -199,32 +199,25 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Agro Products",
+    title: "Cereals",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-photo/mixed-nuts_1308-39988.jpg?w=740&t=st=1692188600~exp=1692189200~hmac=798830b769f4b500385e7c45f269ed7d66c0bd87191f76e8fa532d1e124f9009",
+      "https://www.freepik.com/free-photo/oats-peeled_1197007.htm#query=rice%20png&position=37&from_view=search&track=ais",
   },
   {
     id: 2,
-    title: "Animal Products",
+    title: "Beans",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-vector/white-sheep-farm-animal-cartoon-sticker_1308-78715.jpg?w=360&t=st=1692189343~exp=1692189943~hmac=10c40b89ceb1b053fe2ca567f3c6db162d0472670c780a25b215c00d0f4772e5",
+      "https://www.freepik.com/free-photo/mountain-almonds_953911.htm#query=beans%20png&position=0&from_view=search&track=ais",
   },
   {
     id: 3,
-    title: "Minerals",
+    title: "Nuts",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-photo/dried-strawberry_1368-6559.jpg?w=740&t=st=1693988814~exp=1693989414~hmac=b590fdb76e72b90a8acab8c2baf9f703575d69dcb302bcdad6a49f44e1be6e5f",
-  },
-  {
-    id: 4,
-    title: "Others",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-photo/beautiful-log_1339-660.jpg?w=740&t=st=1693993353~exp=1693993953~hmac=551d5ec7d4a090a2b43273ef3e919fc283e3547f984f3acd29e088ac8d5de763",
-  },
+    "https://img.freepik.com/free-photo/mixed-nuts_1308-39988.jpg?w=740&t=st=1692188600~exp=1692189200~hmac=798830b769f4b500385e7c45f269ed7d66c0bd87191f76e8fa532d1e124f9009",
+  }
 ];
 
 // product Data
@@ -668,15 +661,15 @@ export const artisanData = [
 
 export const footerProductLinks = [
   {
-    name: "About us",
-    link: "#"
-  },
-  {
-    name: "Careers",
-    link: "#"
+    name: "Trends",
+    link: "/events"
   },
   {
     name: "FAQ",
+    link: "/faq"
+  },
+  {
+    name: "About us",
     link: "#"
   },
   {
@@ -684,7 +677,7 @@ export const footerProductLinks = [
     link: "#"
   },
   {
-    name: "Support",
+    name: "Careers",
     link: "#"
   },
 ];
