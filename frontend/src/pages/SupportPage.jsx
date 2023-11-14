@@ -6,7 +6,7 @@ import styles from "../styles/styles";
 const SupportPage = () => {
   return (
     <div>
-      <Header activeHeading={7} />
+      <Header activeHeading={4} />
       <Support />
       <Footer />
     </div>

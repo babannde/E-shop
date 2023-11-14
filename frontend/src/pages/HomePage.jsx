@@ -12,7 +12,7 @@ import FeaturedService from '../components/Route/FeaturedService/FeaturedService
 const HomePage = () => {
   return (
     <div>
-        <Header activeHeading={1} />
+        <Header activeHeading={0} />
         <Hero />
         <Categories />
         <FeaturedService />
