@@ -206,20 +206,27 @@ export const categoriesData = [
   },
   {
     id: 2,
-    title: "Electronics",
+    title: "Meat",
     subTitle: "",
     image_Url:
-      "https://www.freepik.com/free-vector/mobile-phone-smartphone-charging-set-with-isolated-wires-plugs-power-banks-adapters-with-bolt-sign-vector-illustration_37423091.htm#page=3&query=battery%20png&position=49&from_view=search&track=ais&uuid=a0080ae0-fefa-45a3-902c-179ddb541e07",
+      "https://img.freepik.com/free-photo/raw-meat_144627-33840.jpg?w=740&t=st=1705565031~exp=1705565631~hmac=fd682d86a2058b13f9360e674a625b74c15c19b06a5ffe28084584aa40a84b92",
   },
   {
     id: 3,
-    title: "Ceramics",
+    title: "Electronics",
     subTitle: "",
     image_Url:
-    "https://www.freepik.com/free-psd/modern-vase-with-soft-aesthetics_57396043.htm#query=ceramics%20png&position=1&from_view=search&track=ais&uuid=45e05c55-cb75-4481-9a71-8fb3873fb315",
+      "https://img.freepik.com/free-vector/mobile-phone-smartphone-charging-set-with-isolated-wires-plugs-power-banks-adapters-with-bolt-sign-vector-illustration_1284-79391.jpg?w=900&t=st=1705515318~exp=1705515918~hmac=a829484df1899301c7a086bdca94f15b65ac7ed5da6dff51e0f85b964264c17a",
   },
   {
     id: 4,
+    title: "Ceramics",
+    subTitle: "",
+    image_Url:
+    "https://img.freepik.com/free-psd/modern-vase-with-soft-aesthetics_23-2150638029.jpg?w=740&t=st=1705563161~exp=1705563761~hmac=5906ab9f5afe0411bf0c8344f6019cef0828a79ecdfa712197778c756b033c36",
+  },
+  {
+    id: 5,
     title: "Others",
     subTitle: "",
     image_Url:
