@@ -199,21 +199,28 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Cereals",
+    title: "Foods",
     subTitle: "",
     image_Url:
       "https://img.freepik.com/free-photo/oats-peeled_1368-5469.jpg?w=740&t=st=1699634900~exp=1699635500~hmac=657a0e610f7bc4e1f9043cc7d317fb893b9a1b1e5def15f449b19ae829093a87",
   },
   {
     id: 2,
-    title: "Beans",
+    title: "Electronics",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-photo/mountain-almonds_1203-910.jpg?w=740&t=st=1699634491~exp=1699635091~hmac=73983a2609a29ee3c28ce2f1a7f2aea1d91ae6360f648e61e2511f2bdbe50521",
+      "https://www.freepik.com/free-vector/mobile-phone-smartphone-charging-set-with-isolated-wires-plugs-power-banks-adapters-with-bolt-sign-vector-illustration_37423091.htm#page=3&query=battery%20png&position=49&from_view=search&track=ais&uuid=a0080ae0-fefa-45a3-902c-179ddb541e07",
   },
   {
     id: 3,
-    title: "Nuts",
+    title: "Ceramics",
+    subTitle: "",
+    image_Url:
+    "https://www.freepik.com/free-psd/modern-vase-with-soft-aesthetics_57396043.htm#query=ceramics%20png&position=1&from_view=search&track=ais&uuid=45e05c55-cb75-4481-9a71-8fb3873fb315",
+  },
+  {
+    id: 4,
+    title: "Others",
     subTitle: "",
     image_Url:
     "https://img.freepik.com/free-photo/mixed-nuts_1308-39988.jpg?w=740&t=st=1692188600~exp=1692189200~hmac=798830b769f4b500385e7c45f269ed7d66c0bd87191f76e8fa532d1e124f9009",

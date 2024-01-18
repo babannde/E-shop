@@ -18,9 +18,8 @@ const Hero = () => {
           A marketplace <br />  for manufacturers.
         </h1>
         <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-        People and resources!! Buy directly from sellers to save costs <br /> 
-        and scale production using
-        our dedicated artisans.
+        Scale production and expand to new markets by leveraging resources <br /> 
+        of other businesses through strategic alliances.
         </p>
         <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
