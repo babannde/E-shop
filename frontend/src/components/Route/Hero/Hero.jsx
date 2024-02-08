@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
         <h1
-          className={`text-[25px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
+          className={`text-[30px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
         >
           Resource sharing marketplace <br />  for manufacturers.
         </h1>
