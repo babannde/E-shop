@@ -42,7 +42,7 @@ const Footer = () => {
             style={{ filter: "brightness(0) invert(1)" }}
           />
           <br />
-          <p>Trade, add value and scale production.</p>
+          <p>We are here to help your business grow</p>
           <div className="flex items-center mt-[15px]">
           <Link to="https://www.linkedin.com/company/kiyira">
             <AiFillLinkedin size={25} className="cursor-pointer" />
@@ -84,7 +84,7 @@ const Footer = () => {
         </ul>
 
         <ul className="text-center sm:text-start">
-          <h1 className="mb-1 font-semibold">Shop</h1>
+          <h1 className="mb-1 font-semibold">Support</h1>
           {footercompanyLinks.map((link,index) => (
             <li key={index}>
               <Link
@@ -118,7 +118,7 @@ const Footer = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
          text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>© Copyright 2023 Kiyira. All rights reserved.</span>
+        <span>© Copyright 2024 Kiyira. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <div className="sm:block flex items-center justify-center w-full">
           <img
