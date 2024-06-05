@@ -32,7 +32,7 @@ const Categories = () => {
           {categoriesData &&
             categoriesData.map((i) => {
               const handleSubmit = (i) => {
-                navigate(`/services?category=${i.title}`);
+                navigate(`/products?category=${i.title}`);
               };
               return (
                 <div
