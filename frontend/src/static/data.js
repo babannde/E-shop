@@ -658,10 +658,6 @@ export const footerProductLinks = [
     link: "/events"
   },
   {
-    name: "FAQ",
-    link: "/faq"
-  },
-  {
     name: "About us",
     link: "#"
   },
@@ -677,24 +673,18 @@ export const footerProductLinks = [
 
 export const footercompanyLinks = [
   {
-    name: "Agriculture",
+    name: "Products",
+    link: "/products"
   },
   {
-    name: "Minerals",
+    name: "Services",
+    link: "/services"
   },
 ];
 
 export const footerSupportLinks = [
   {
-    name: "Warehouses",
-  },
-  {
-    name: "Pilot",
-  },
-  {
-    name: "Backdoor Deals",
-  },
-  {
-    name: "Shipping",
+    name: "FAQ",
+    link: "/faq"
   },
 ];
