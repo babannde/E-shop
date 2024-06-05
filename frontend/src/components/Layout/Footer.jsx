@@ -84,7 +84,7 @@ const Footer = () => {
         </ul>
 
         <ul className="text-center sm:text-start">
-          <h1 className="mb-1 font-semibold">Support</h1>
+          <h1 className="mb-1 font-semibold">Offers</h1>
           {footercompanyLinks.map((link,index) => (
             <li key={index}>
               <Link
@@ -99,7 +99,7 @@ const Footer = () => {
         </ul>
 
         <ul className="text-center sm:text-start">
-          <h1 className="mb-1 font-semibold">Other Links</h1>
+          <h1 className="mb-1 font-semibold">Support</h1>
           {footerSupportLinks.map((link,index) => (
             <li key={index}>
               <Link
