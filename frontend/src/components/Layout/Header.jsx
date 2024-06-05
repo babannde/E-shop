@@ -105,7 +105,7 @@ const Header = ({ activeHeading }) => {
               </div>
             ) : null}
           </div>
-
+          </>
           <div className={`${styles.button}`}>
             <Link to={`${isSeller ? "/dashboard" : "/shop-create"}`}>
               <h1 className="text-[#fff] flex items-center">
