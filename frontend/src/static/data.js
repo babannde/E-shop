@@ -9,11 +9,11 @@ export const navItems = [
     url: "/best-selling",
   },
   {
-    title: "Resources",
+    title: "Products",
     url: "/products",
   },
   {
-    title: "Alliances",
+    title: "Services",
     url: "/services",
   },
   // {
@@ -199,38 +199,17 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Foods",
+    title: "Products",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-photo/oats-peeled_1368-5469.jpg?w=740&t=st=1699634900~exp=1699635500~hmac=657a0e610f7bc4e1f9043cc7d317fb893b9a1b1e5def15f449b19ae829093a87",
+     "https://img.freepik.com/free-photo/mixed-nuts_1308-39988.jpg?w=740&t=st=1692188600~exp=1692189200~hmac=798830b769f4b500385e7c45f269ed7d66c0bd87191f76e8fa532d1e124f9009",
   },
   {
     id: 2,
-    title: "Meat",
+    title: "Services",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-photo/raw-meat_144627-33840.jpg?w=740&t=st=1705565031~exp=1705565631~hmac=fd682d86a2058b13f9360e674a625b74c15c19b06a5ffe28084584aa40a84b92",
-  },
-  {
-    id: 3,
-    title: "Electronics",
-    subTitle: "",
-    image_Url:
-      "https://img.freepik.com/free-vector/mobile-phone-smartphone-charging-set-with-isolated-wires-plugs-power-banks-adapters-with-bolt-sign-vector-illustration_1284-79391.jpg?w=900&t=st=1705515318~exp=1705515918~hmac=a829484df1899301c7a086bdca94f15b65ac7ed5da6dff51e0f85b964264c17a",
-  },
-  {
-    id: 4,
-    title: "Ceramics",
-    subTitle: "",
-    image_Url:
-    "https://img.freepik.com/free-psd/modern-vase-with-soft-aesthetics_23-2150638029.jpg?w=740&t=st=1705563161~exp=1705563761~hmac=5906ab9f5afe0411bf0c8344f6019cef0828a79ecdfa712197778c756b033c36",
-  },
-  {
-    id: 5,
-    title: "Others",
-    subTitle: "",
-    image_Url:
-    "https://img.freepik.com/free-photo/mixed-nuts_1308-39988.jpg?w=740&t=st=1692188600~exp=1692189200~hmac=798830b769f4b500385e7c45f269ed7d66c0bd87191f76e8fa532d1e124f9009",
+       "https://img.freepik.com/free-vector/mobile-phone-smartphone-charging-set-with-isolated-wires-plugs-power-banks-adapters-with-bolt-sign-vector-illustration_1284-79391.jpg?w=900&t=st=1705515318~exp=1705515918~hmac=a829484df1899301c7a086bdca94f15b65ac7ed5da6dff51e0f85b964264c17a",
   }
 ];
 
