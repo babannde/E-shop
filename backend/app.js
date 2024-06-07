@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://kiyira.com',],
+  origin: ['https://www.kiyira.com',],
   credentials: true
 }));
 
