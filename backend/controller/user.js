@@ -35,7 +35,7 @@ router.post("/create-user", async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://kiyira.com/activation/${activationToken}`;
+    const activationUrl = `https://www.kiyira.com/activation/${activationToken}`;
 
     try {
       await sendMail({
