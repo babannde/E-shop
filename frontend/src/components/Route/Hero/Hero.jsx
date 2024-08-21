@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
          Cut labor cost and Scale production by hiring service robots! <br /> 
-          We offer a vast variety of labor service specific do different business needs.
+          We offer a vast variety of labor service specific to different business needs.
         </p>
         <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
