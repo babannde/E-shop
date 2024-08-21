@@ -21,7 +21,7 @@ const Hero = () => {
          Cut labor cost and Scale production by hiring service robots! <br /> 
           We offer a vast variety of labor service specific to different business needs.
         </p>
-        <Link to="/products" className="inline-block">
+        <Link to="/services" className="inline-block">
             <div className={`${styles.button} mt-5`}>
                  <span className="text-[#fff] font-[Poppins] text-[18px]">
                     Buy Now
