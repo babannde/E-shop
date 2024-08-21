@@ -15,16 +15,16 @@ const Hero = () => {
         <h1
           className={`text-[30px] leading-[1.2] 800px:text-[30px] text-[#3d3a3a] font-[600] capitalize`}
         >
-          Resource sharing marketplace <br />  for manufacturers.
+          For manufacturers <br />  hiring robots.
         </h1>
         <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-        Scale production and expand to new markets by leveraging resources <br /> 
-        of other businesses through strategic alliances.
+         Cut labor cost and Scale production by hiring service robots! <br /> 
+          We offer a vast variety of labor service specific do different business needs.
         </p>
         <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
                  <span className="text-[#fff] font-[Poppins] text-[18px]">
-                    Shop Now
+                    Buy Now
                  </span>
             </div>
         </Link>
